@@ -4,7 +4,7 @@ import ButtonCustomized from "./ButtonCustomized";
 import ProfileBox from "./profileBox";
 import { get } from "react-native/Libraries/TurboModule/TurboModuleRegistry";
 
-export default function AddProfileModal({ visible, closeModal, addUser, getRandomColor }) {
+export default function AddProfileModal({ visible, closeModal, addUser }) {
   const [isEnabled, setIsEnabled] = useState(false);
   const [text, setText] = useState("");
   const toggleSwitch = () => setIsEnabled((previousState) => !previousState);
