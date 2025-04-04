@@ -2,6 +2,8 @@
 
 A simple **Netflix app clone**, developed with **React Native** to practice key mobile development features.
 
+![Image of my IDE](./assets/img-readme.png)
+
 ## 🚀 Features Implemented
 - **Intro screen** with animation
 - **Profile management**: add, select, and delete profiles
